@@ -1,0 +1,73 @@
+name: Actualizar mapa SMA70
+
+on:
+  workflow_dispatch:
+    inputs:
+      calculation_date:
+        description: "Fecha opcional YYYY-MM-DD; vacío usa hoy en Europa/Madrid"
+        required: false
+        type: string
+  schedule:
+    - cron: "15 5 * * 6"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-sma70
+  cancel-in-progress: false
+
+jobs:
+  calculate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Calcular SMA70
+        env:
+          CALCULATION_DATE: ${{ inputs.calculation_date }}
+        run: |
+          if [ -n "$CALCULATION_DATE" ]; then
+            python scripts/build_sma70.py --date "$CALCULATION_DATE"
+          else
+            python scripts/build_sma70.py
+          fi
+
+      - name: Mostrar control de calidad
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = json.loads(Path('data/sma70-latest.json').read_text(encoding='utf-8'))
+          s = p['summary']
+          print('publication_ready:', s['publication_ready'])
+          print('verified:', s['counts']['verified'], '/', len(p['markets']))
+          print('counts:', s['counts'])
+          print('world_status:', (s.get('world') or {}).get('status'))
+          for m in p['markets']:
+              if m.get('status') != 'verified':
+                  print('PENDIENTE:', m['country'], m['name'], m.get('status'), m.get('errors'))
+          PY
+
+      - name: Guardar resultados auditables
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sma70-latest.json data/sma70-latest.md
+          if git diff --cached --quiet; then
+            echo "No hay cambios en los datos."
+          else
+            git commit -m "Actualiza datos semanales SMA70"
+            git push
+          fi
+
+      - name: Resumen de ejecución
+        run: |
+          cat data/sma70-latest.md >> "$GITHUB_STEP_SUMMARY"
