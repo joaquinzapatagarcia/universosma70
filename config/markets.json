@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "method": {
+    "timezone": "Europe/Madrid",
+    "sma_weeks": 70,
+    "zone_percent": 5.0,
+    "minimum_weekly_points": 71,
+    "world_id": "world",
+    "world_note": "MUNDO usa ACWI, ETF global ponderado que replica MSCI ACWI. Nunca se calcula como media simple del resto."
+  },
+  "markets": [
+    {"id":"kospi","country":"Corea del Sur","name":"KOSPI","symbols":["^KS11"],"week_end":4},
+    {"id":"taiex","country":"Taiwán","name":"TAIEX","symbols":["^TWII"],"week_end":4},
+    {"id":"ibex35","country":"España","name":"IBEX 35","symbols":["^IBEX"],"week_end":4},
+    {"id":"tsx","country":"Canadá","name":"S&P/TSX Composite","symbols":["^GSPTSE"],"week_end":4},
+    {"id":"ftsemib","country":"Italia","name":"FTSE MIB","symbols":["FTSEMIB.MI","^FTMIB"],"week_end":4},
+    {"id":"sti","country":"Singapur","name":"Straits Times","symbols":["^STI"],"week_end":4},
+    {"id":"bovespa","country":"Brasil","name":"Bovespa","symbols":["^BVSP"],"week_end":4},
+    {"id":"sp500","country":"Estados Unidos","name":"S&P 500","symbols":["^GSPC"],"week_end":4},
+    {"id":"world","country":"MUNDO","name":"MSCI ACWI equivalente ponderado","symbols":["ACWI"],"week_end":4,"is_world":true},
+    {"id":"nikkei225","country":"Japón","name":"Nikkei 225","symbols":["^N225"],"week_end":4},
+    {"id":"ipc","country":"México","name":"S&P/BMV IPC","symbols":["^MXX"],"week_end":4},
+    {"id":"bist100","country":"Turquía","name":"BIST 100","symbols":["XU100.IS"],"week_end":4},
+    {"id":"ftse100","country":"Reino Unido","name":"FTSE 100","symbols":["^FTSE"],"week_end":4},
+    {"id":"merval","country":"Argentina","name":"S&P Merval","symbols":["^MERV"],"week_end":4},
+    {"id":"smi","country":"Suiza","name":"SMI","symbols":["^SSMI"],"week_end":4},
+    {"id":"asx200","country":"Australia","name":"S&P/ASX 200","symbols":["^AXJO"],"week_end":4},
+    {"id":"hangseng","country":"Hong Kong","name":"Hang Seng","symbols":["^HSI"],"week_end":4},
+    {"id":"cac40","country":"Francia","name":"CAC 40","symbols":["^FCHI"],"week_end":4},
+    {"id":"dax","country":"Alemania","name":"DAX","symbols":["^GDAXI"],"week_end":4},
+    {"id":"jse","country":"Sudáfrica","name":"FTSE/JSE All Share","symbols":["^J203.JO","J203.JO"],"week_end":4},
+    {"id":"tadawul","country":"Arabia Saudí","name":"Tadawul All Share","symbols":["^TASI.SR"],"week_end":3},
+    {"id":"csi300","country":"China","name":"CSI 300","symbols":["000300.SS"],"week_end":4},
+    {"id":"nifty50","country":"India","name":"Nifty 50","symbols":["^NSEI"],"week_end":4},
+    {"id":"jakarta","country":"Indonesia","name":"Jakarta Composite","symbols":["^JKSE"],"week_end":4}
+  ]
+}
