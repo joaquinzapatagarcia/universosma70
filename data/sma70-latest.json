@@ -1,0 +1,998 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-27T07:45:35+02:00",
+  "as_of_date": "2026-07-27",
+  "timezone": "Europe/Madrid",
+  "method": {
+    "timezone": "Europe/Madrid",
+    "sma_weeks": 70,
+    "zone_percent": 5.0,
+    "minimum_weekly_points": 71,
+    "world_id": "world",
+    "world_note": "MUNDO usa ACWI, ETF global ponderado que replica MSCI ACWI. Nunca se calcula como media simple del resto."
+  },
+  "summary": {
+    "counts": {
+      "above": 15,
+      "zone": 8,
+      "below": 1,
+      "verified": 24,
+      "unavailable": 0
+    },
+    "breadth_above_percent_ex_world": 60.87,
+    "strongest": [
+      {
+        "id": "kospi",
+        "country": "Corea del Sur",
+        "name": "KOSPI",
+        "distance_percent": 53.1673,
+        "weekly_change_percent": 4.0508,
+        "state": "above"
+      },
+      {
+        "id": "taiex",
+        "country": "Taiwán",
+        "name": "TAIEX",
+        "distance_percent": 50.0498,
+        "weekly_change_percent": 5.1077,
+        "state": "above"
+      },
+      {
+        "id": "nikkei225",
+        "country": "Japón",
+        "name": "Nikkei 225",
+        "distance_percent": 32.8148,
+        "weekly_change_percent": 3.557,
+        "state": "above"
+      },
+      {
+        "id": "merval",
+        "country": "Argentina",
+        "name": "S&P Merval",
+        "distance_percent": 28.1698,
+        "weekly_change_percent": 3.7372,
+        "state": "above"
+      },
+      {
+        "id": "sti",
+        "country": "Singapur",
+        "name": "Straits Times",
+        "distance_percent": 22.9615,
+        "weekly_change_percent": 1.3128,
+        "state": "above"
+      }
+    ],
+    "weakest": [
+      {
+        "id": "jakarta",
+        "country": "Indonesia",
+        "name": "Jakarta Composite",
+        "distance_percent": -14.8731,
+        "weekly_change_percent": 2.2634,
+        "state": "below"
+      },
+      {
+        "id": "tadawul",
+        "country": "Arabia Saudí",
+        "name": "Tadawul All Share",
+        "distance_percent": -3.4056,
+        "weekly_change_percent": -0.8156,
+        "state": "zone"
+      },
+      {
+        "id": "nifty50",
+        "country": "India",
+        "name": "Nifty 50",
+        "distance_percent": -3.3279,
+        "weekly_change_percent": -1.9097,
+        "state": "zone"
+      },
+      {
+        "id": "hangseng",
+        "country": "Hong Kong",
+        "name": "Hang Seng",
+        "distance_percent": 0.5842,
+        "weekly_change_percent": 2.6405,
+        "state": "zone"
+      },
+      {
+        "id": "jse",
+        "country": "Sudáfrica",
+        "name": "FTSE/JSE All Share",
+        "distance_percent": 0.7479,
+        "weekly_change_percent": -1.127,
+        "state": "zone"
+      }
+    ],
+    "nearest": [
+      {
+        "id": "hangseng",
+        "country": "Hong Kong",
+        "name": "Hang Seng",
+        "distance_percent": 0.5842,
+        "weekly_change_percent": 2.6405,
+        "state": "zone"
+      },
+      {
+        "id": "jse",
+        "country": "Sudáfrica",
+        "name": "FTSE/JSE All Share",
+        "distance_percent": 0.7479,
+        "weekly_change_percent": -1.127,
+        "state": "zone"
+      },
+      {
+        "id": "asx200",
+        "country": "Australia",
+        "name": "S&P/ASX 200",
+        "distance_percent": 2.0176,
+        "weekly_change_percent": 0.4809,
+        "state": "zone"
+      },
+      {
+        "id": "csi300",
+        "country": "China",
+        "name": "CSI 300",
+        "distance_percent": 2.5018,
+        "weekly_change_percent": -5.2646,
+        "state": "zone"
+      },
+      {
+        "id": "dax",
+        "country": "Alemania",
+        "name": "DAX",
+        "distance_percent": 3.3197,
+        "weekly_change_percent": -0.2733,
+        "state": "zone"
+      }
+    ],
+    "crossings": [
+      {
+        "id": "csi300",
+        "country": "China",
+        "name": "CSI 300",
+        "distance_percent": 2.5018,
+        "weekly_change_percent": -5.2646,
+        "state": "zone",
+        "crossing": "entra en zona desde arriba"
+      }
+    ],
+    "world": {
+      "id": "world",
+      "country": "MUNDO",
+      "name": "MSCI ACWI equivalente ponderado",
+      "symbols": [
+        "ACWI"
+      ],
+      "week_end": 4,
+      "is_world": true,
+      "symbol_used": "ACWI",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "ACWI",
+        "currency": "USD",
+        "exchange": "NGM",
+        "timezone": "America/New_York",
+        "instrument_type": "ETF",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/ACWI?period1=1658641535&period2=1785131135&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 154.339996,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 155.0,
+      "sma70": 138.449715,
+      "distance_percent": 11.4773,
+      "weekly_change_percent": -0.4258,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    "publication_ready": true
+  },
+  "markets": [
+    {
+      "id": "kospi",
+      "country": "Corea del Sur",
+      "name": "KOSPI",
+      "symbols": [
+        "^KS11"
+      ],
+      "week_end": 4,
+      "symbol_used": "^KS11",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^KS11",
+        "currency": "KRW",
+        "exchange": "KSC",
+        "timezone": "Asia/Seoul",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?period1=1658641535&period2=1785131135&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 7096.890137,
+      "previous_weekly_close_date": "2026-07-16",
+      "previous_weekly_close": 6820.600098,
+      "sma70": 4633.424013,
+      "distance_percent": 53.1673,
+      "weekly_change_percent": 4.0508,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "taiex",
+      "country": "Taiwán",
+      "name": "TAIEX",
+      "symbols": [
+        "^TWII"
+      ],
+      "week_end": 4,
+      "symbol_used": "^TWII",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^TWII",
+        "currency": "TWD",
+        "exchange": "TAI",
+        "timezone": "Asia/Taipei",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETWII?period1=1658641535&period2=1785131135&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 206,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 44850.808594,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 42671.269531,
+      "sma70": 29890.62221,
+      "distance_percent": 50.0498,
+      "weekly_change_percent": 5.1077,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "ibex35",
+      "country": "España",
+      "name": "IBEX 35",
+      "symbols": [
+        "^IBEX"
+      ],
+      "week_end": 4,
+      "symbol_used": "^IBEX",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^IBEX",
+        "currency": "EUR",
+        "exchange": "MCE",
+        "timezone": "Europe/Madrid",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIBEX?period1=1658641535&period2=1785131135&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 19267.0,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 19216.900391,
+      "sma70": 16218.337291,
+      "distance_percent": 18.7976,
+      "weekly_change_percent": 0.2607,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "tsx",
+      "country": "Canadá",
+      "name": "S&P/TSX Composite",
+      "symbols": [
+        "^GSPTSE"
+      ],
+      "week_end": 4,
+      "symbol_used": "^GSPTSE",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^GSPTSE",
+        "currency": "CAD",
+        "exchange": "TSI",
+        "timezone": "America/Toronto",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPTSE?period1=1658641535&period2=1785131135&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 35192.699219,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 35263.898438,
+      "sma70": 30462.170006,
+      "distance_percent": 15.5292,
+      "weekly_change_percent": -0.2019,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "ftsemib",
+      "country": "Italia",
+      "name": "FTSE MIB",
+      "symbols": [
+        "FTSEMIB.MI",
+        "^FTMIB"
+      ],
+      "week_end": 4,
+      "symbol_used": "FTSEMIB.MI",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "FTSEMIB.MI",
+        "currency": "EUR",
+        "exchange": "MIL",
+        "timezone": "Europe/Rome",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/FTSEMIB.MI?period1=1658641535&period2=1785131135&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 51316.0,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 51882.0,
+      "sma70": 43946.671429,
+      "distance_percent": 16.7688,
+      "weekly_change_percent": -1.0909,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "sti",
+      "country": "Singapur",
+      "name": "Straits Times",
+      "symbols": [
+        "^STI"
+      ],
+      "week_end": 4,
+      "symbol_used": "^STI",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^STI",
+        "currency": "SGD",
+        "exchange": "SES",
+        "timezone": "Asia/Singapore",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESTI?period1=1658641535&period2=1785131135&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 5581.759766,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 5509.430176,
+      "sma70": 4539.436164,
+      "distance_percent": 22.9615,
+      "weekly_change_percent": 1.3128,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "bovespa",
+      "country": "Brasil",
+      "name": "Bovespa",
+      "symbols": [
+        "^BVSP"
+      ],
+      "week_end": 4,
+      "symbol_used": "^BVSP",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^BVSP",
+        "currency": "BRL",
+        "exchange": "SAO",
+        "timezone": "America/Sao_Paulo",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBVSP?period1=1658641535&period2=1785131135&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 176724.0,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 173714.0,
+      "sma70": 157769.214286,
+      "distance_percent": 12.0142,
+      "weekly_change_percent": 1.7327,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "sp500",
+      "country": "Estados Unidos",
+      "name": "S&P 500",
+      "symbols": [
+        "^GSPC"
+      ],
+      "week_end": 4,
+      "symbol_used": "^GSPC",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^GSPC",
+        "currency": "USD",
+        "exchange": "SNP",
+        "timezone": "America/New_York",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=1658641535&period2=1785131135&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 7408.299805,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 7457.689941,
+      "sma70": 6632.975272,
+      "distance_percent": 11.6889,
+      "weekly_change_percent": -0.6623,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "world",
+      "country": "MUNDO",
+      "name": "MSCI ACWI equivalente ponderado",
+      "symbols": [
+        "ACWI"
+      ],
+      "week_end": 4,
+      "is_world": true,
+      "symbol_used": "ACWI",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "ACWI",
+        "currency": "USD",
+        "exchange": "NGM",
+        "timezone": "America/New_York",
+        "instrument_type": "ETF",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/ACWI?period1=1658641535&period2=1785131135&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 154.339996,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 155.0,
+      "sma70": 138.449715,
+      "distance_percent": 11.4773,
+      "weekly_change_percent": -0.4258,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "nikkei225",
+      "country": "Japón",
+      "name": "Nikkei 225",
+      "symbols": [
+        "^N225"
+      ],
+      "week_end": 4,
+      "symbol_used": "^N225",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^N225",
+        "currency": "JPY",
+        "exchange": "OSA",
+        "timezone": "Asia/Tokyo",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EN225?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 66422.601562,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 64141.121094,
+      "sma70": 50011.448828,
+      "distance_percent": 32.8148,
+      "weekly_change_percent": 3.557,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "ipc",
+      "country": "México",
+      "name": "S&P/BMV IPC",
+      "symbols": [
+        "^MXX"
+      ],
+      "week_end": 4,
+      "symbol_used": "^MXX",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^MXX",
+        "currency": "MXN",
+        "exchange": "MEX",
+        "timezone": "America/Mexico_City",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMXX?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 66266.007812,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 66634.226562,
+      "sma70": 62897.368583,
+      "distance_percent": 5.3558,
+      "weekly_change_percent": -0.5526,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "bist100",
+      "country": "Turquía",
+      "name": "BIST 100",
+      "symbols": [
+        "XU100.IS"
+      ],
+      "week_end": 4,
+      "symbol_used": "XU100.IS",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "XU100.IS",
+        "currency": "TRY",
+        "exchange": "IST",
+        "timezone": "Europe/Istanbul",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XU100.IS?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 14077.700195,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 13981.099609,
+      "sma70": 11779.471443,
+      "distance_percent": 19.5105,
+      "weekly_change_percent": 0.6909,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "ftse100",
+      "country": "Reino Unido",
+      "name": "FTSE 100",
+      "symbols": [
+        "^FTSE"
+      ],
+      "week_end": 4,
+      "symbol_used": "^FTSE",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^FTSE",
+        "currency": "GBP",
+        "exchange": "FGI",
+        "timezone": "Europe/London",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EFTSE?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 10639.200195,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 10600.400391,
+      "sma70": 9648.601423,
+      "distance_percent": 10.2668,
+      "weekly_change_percent": 0.366,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "merval",
+      "country": "Argentina",
+      "name": "S&P Merval",
+      "symbols": [
+        "^MERV"
+      ],
+      "week_end": 4,
+      "symbol_used": "^MERV",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^MERV",
+        "currency": "",
+        "exchange": "BUE",
+        "timezone": "America/Argentina/Buenos_Aires",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMERV?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 3319522.0,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 3199935.0,
+      "sma70": 2589941.471429,
+      "distance_percent": 28.1698,
+      "weekly_change_percent": 3.7372,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "smi",
+      "country": "Suiza",
+      "name": "SMI",
+      "symbols": [
+        "^SSMI"
+      ],
+      "week_end": 4,
+      "symbol_used": "^SSMI",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^SSMI",
+        "currency": "CHF",
+        "exchange": "EBS",
+        "timezone": "Europe/Zurich",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESSMI?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 14214.950195,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 14343.700195,
+      "sma70": 12774.995689,
+      "distance_percent": 11.2717,
+      "weekly_change_percent": -0.8976,
+      "state": "above",
+      "previous_state": "above",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "asx200",
+      "country": "Australia",
+      "name": "S&P/ASX 200",
+      "symbols": [
+        "^AXJO"
+      ],
+      "week_end": 4,
+      "symbol_used": "^AXJO",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^AXJO",
+        "currency": "AUD",
+        "exchange": "ASX",
+        "timezone": "Australia/Sydney",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EAXJO?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 8839.0,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 8796.700195,
+      "sma70": 8664.192878,
+      "distance_percent": 2.0176,
+      "weekly_change_percent": 0.4809,
+      "state": "zone",
+      "previous_state": "zone",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "hangseng",
+      "country": "Hong Kong",
+      "name": "Hang Seng",
+      "symbols": [
+        "^HSI"
+      ],
+      "week_end": 4,
+      "symbol_used": "^HSI",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^HSI",
+        "currency": "HKD",
+        "exchange": "HKG",
+        "timezone": "Asia/Hong_Kong",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EHSI?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 25210.810547,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 24562.240234,
+      "sma70": 25064.386942,
+      "distance_percent": 0.5842,
+      "weekly_change_percent": 2.6405,
+      "state": "zone",
+      "previous_state": "zone",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "cac40",
+      "country": "Francia",
+      "name": "CAC 40",
+      "symbols": [
+        "^FCHI"
+      ],
+      "week_end": 4,
+      "symbol_used": "^FCHI",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^FCHI",
+        "currency": "EUR",
+        "exchange": "PAR",
+        "timezone": "Europe/Paris",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EFCHI?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 8299.089844,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 8338.80957,
+      "sma70": 7991.969845,
+      "distance_percent": 3.8429,
+      "weekly_change_percent": -0.4763,
+      "state": "zone",
+      "previous_state": "zone",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "dax",
+      "country": "Alemania",
+      "name": "DAX",
+      "symbols": [
+        "^GDAXI"
+      ],
+      "week_end": 4,
+      "symbol_used": "^GDAXI",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^GDAXI",
+        "currency": "EUR",
+        "exchange": "GER",
+        "timezone": "Europe/Berlin",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGDAXI?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 24763.119141,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 24830.980469,
+      "sma70": 23967.480804,
+      "distance_percent": 3.3197,
+      "weekly_change_percent": -0.2733,
+      "state": "zone",
+      "previous_state": "zone",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "jse",
+      "country": "Sudáfrica",
+      "name": "FTSE/JSE All Share",
+      "symbols": [
+        "^J203.JO",
+        "J203.JO"
+      ],
+      "week_end": 4,
+      "symbol_used": "^J203.JO",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^J203.JO",
+        "currency": "ZAR",
+        "exchange": "JNB",
+        "timezone": "Africa/Johannesburg",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EJ203.JO?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 108335.0,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 109569.898438,
+      "sma70": 107530.792746,
+      "distance_percent": 0.7479,
+      "weekly_change_percent": -1.127,
+      "state": "zone",
+      "previous_state": "zone",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "tadawul",
+      "country": "Arabia Saudí",
+      "name": "Tadawul All Share",
+      "symbols": [
+        "^TASI.SR"
+      ],
+      "week_end": 3,
+      "symbol_used": "^TASI.SR",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^TASI.SR",
+        "currency": "SAR",
+        "exchange": "SAU",
+        "timezone": "Asia/Riyadh",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETASI.SR?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 204,
+      "weekly_close_date": "2026-07-16",
+      "weekly_close": 10720.280273,
+      "previous_weekly_close_date": "2026-07-09",
+      "previous_weekly_close": 10808.429688,
+      "sma70": 11098.245033,
+      "distance_percent": -3.4056,
+      "weekly_change_percent": -0.8156,
+      "state": "zone",
+      "previous_state": "zone",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "csi300",
+      "country": "China",
+      "name": "CSI 300",
+      "symbols": [
+        "000300.SS"
+      ],
+      "week_end": 4,
+      "symbol_used": "000300.SS",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "000300.SS",
+        "currency": "CNY",
+        "exchange": "SHH",
+        "timezone": "Asia/Shanghai",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/000300.SS?period1=1658641536&period2=1785131136&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 203,
+      "weekly_close_date": "2026-07-17",
+      "weekly_close": 4529.100098,
+      "previous_weekly_close_date": "2026-07-10",
+      "previous_weekly_close": 4780.790039,
+      "sma70": 4418.557586,
+      "distance_percent": 2.5018,
+      "weekly_change_percent": -5.2646,
+      "state": "zone",
+      "previous_state": "above",
+      "crossing": "entra en zona desde arriba",
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "nifty50",
+      "country": "India",
+      "name": "Nifty 50",
+      "symbols": [
+        "^NSEI"
+      ],
+      "week_end": 4,
+      "symbol_used": "^NSEI",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^NSEI",
+        "currency": "INR",
+        "exchange": "NSI",
+        "timezone": "Asia/Kolkata",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?period1=1658641537&period2=1785131137&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 209,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 23869.599609,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 24334.300781,
+      "sma70": 24691.305022,
+      "distance_percent": -3.3279,
+      "weekly_change_percent": -1.9097,
+      "state": "zone",
+      "previous_state": "zone",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    },
+    {
+      "id": "jakarta",
+      "country": "Indonesia",
+      "name": "Jakarta Composite",
+      "symbols": [
+        "^JKSE"
+      ],
+      "week_end": 4,
+      "symbol_used": "^JKSE",
+      "status": "verified",
+      "source": "Yahoo Finance chart API",
+      "source_metadata": {
+        "symbol": "^JKSE",
+        "currency": "IDR",
+        "exchange": "JKT",
+        "timezone": "Asia/Jakarta",
+        "instrument_type": "INDEX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EJKSE?period1=1658641537&period2=1785131137&interval=1d&events=history&includeAdjustedClose=true"
+      },
+      "weekly_points": 207,
+      "weekly_close_date": "2026-07-23",
+      "weekly_close": 6315.311035,
+      "previous_weekly_close_date": "2026-07-17",
+      "previous_weekly_close": 6175.535156,
+      "sma70": 7418.702274,
+      "distance_percent": -14.8731,
+      "weekly_change_percent": 2.2634,
+      "state": "below",
+      "previous_state": "below",
+      "crossing": null,
+      "calculation": "SMA70 = media simple de los 70 cierres semanales completos más recientes; distancia = ((cierre/SMA70)-1)*100",
+      "errors_from_fallbacks": []
+    }
+  ],
+  "warnings": [
+    "Fuente operativa pública no oficial; contrastar cierres críticos antes de publicación editorial.",
+    "No publicar si summary.publication_ready es falso.",
+    "Los datos de la semana en curso solo se incluyen cuando ha concluido el día de cierre configurado."
+  ]
+}
