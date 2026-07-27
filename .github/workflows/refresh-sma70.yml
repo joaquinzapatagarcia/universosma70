@@ -9,6 +9,12 @@ on:
         type: string
   schedule:
     - cron: "15 5 * * 6"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_sma70.py"
+      - "config/markets.json"
+      - ".github/workflows/refresh-sma70.yml"
 
 permissions:
   contents: write
