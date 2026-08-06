@@ -1,0 +1,2 @@
+Forzado de despliegue de GitHub Pages: 2026-08-06 20:50 Europe/Madrid.
+La portada válida es la versión minimalista clara de Distancia SMA70 del commit 60ccd54357ddd5708d44ab197a163b69798cbc7a.
