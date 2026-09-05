@@ -1,45 +1,45 @@
 # MAPA SMA70 — SALIDA DE CÁLCULO
 
-Generado: 2026-08-29T13:39:45+02:00  
-Fecha de referencia: 2026-08-29  
-Estado de publicación: NO APTO
+Generado: 2026-09-05T11:04:23+02:00  
+Fecha de referencia: 2026-09-05  
+Estado de publicación: APTO
 
 ## Resumen
 
 - Por encima: 16
-- Zona ±5 %: 5
+- Zona ±5 %: 7
 - Por debajo: 1
-- Verificados: 22 de 24
-- Amplitud por encima, excluido MUNDO: 71.43 %
+- Verificados: 24 de 24
+- Amplitud por encima, excluido MUNDO: 65.22 %
 
 ## Mercados
 
 | Mercado | Cierre semanal | SMA70 | Distancia | Cambio semanal | Estado | Cruce |
 |---|---:|---:|---:|---:|---|---|
-| Corea del Sur · KOSPI | 6912.3701 (2026-08-27) | 4930.0722 | +40.21 % | -0.01 % | above | — |
-| Taiwán · TAIEX | 45975.2188 (2026-08-27) | 31592.4251 | +45.53 % | +1.66 % | above | — |
-| España · IBEX 35 | 19881.5996 (2026-08-27) | 16732.4287 | +18.82 % | -0.40 % | above | — |
-| Canadá · S&P/TSX Composite | 36834.3008 (2026-08-27) | 31341.0943 | +17.53 % | +0.58 % | above | — |
-| Italia · FTSE MIB | 52265.0000 (2026-08-27) | 45148.8000 | +15.76 % | -0.77 % | above | — |
-| Singapur · Straits Times | 5684.1201 (2026-08-27) | 4676.5112 | +21.55 % | -0.09 % | above | — |
-| Brasil · Bovespa | 175135.0000 (2026-08-27) | 160764.9571 | +8.94 % | +2.40 % | above | — |
-| Estados Unidos · S&P 500 | 7730.9902 (2026-08-27) | 6798.9163 | +13.71 % | +0.74 % | above | — |
-| MUNDO · MSCI ACWI equivalente ponderado | 161.5300 (2026-08-27) | 141.9003 | +13.83 % | +0.45 % | above | — |
-| Japón · Nikkei 225 | 66131.9766 (2026-08-27) | 52212.8332 | +26.66 % | +0.18 % | above | — |
-| México · S&P/BMV IPC | 65829.9766 (2026-08-27) | 63812.8857 | +3.16 % | +0.15 % | zone | — |
-| Turquía · BIST 100 | 14575.5000 (2026-08-27) | 12110.8457 | +20.35 % | +0.42 % | above | — |
-| Reino Unido · FTSE 100 | 10792.5000 (2026-08-27) | 9832.2628 | +9.77 % | -0.22 % | above | — |
-| Argentina · S&P Merval | 3001209.0000 (2026-08-27) | 2648024.0714 | +13.34 % | +3.02 % | above | — |
-| Suiza · SMI | 14384.3701 (2026-08-27) | 12959.3274 | +11.00 % | -0.50 % | above | — |
-| Australia · S&P/ASX 200 | 9038.2002 (2026-08-27) | 8754.2272 | +3.24 % | -0.23 % | zone | — |
-| Hong Kong · Hang Seng | 25565.7402 (2026-08-27) | 25313.3862 | +1.00 % | -1.71 % | zone | — |
-| Francia · CAC 40 | 8319.8701 (2026-08-27) | 8072.2686 | +3.07 % | -1.94 % | zone | entra en zona desde arriba |
-| Alemania · DAX | 26367.2402 (2026-08-27) | 24314.6670 | +8.44 % | +0.88 % | above | — |
-| Sudáfrica · FTSE/JSE All Share | 116806.2031 (2026-08-27) | 109544.3583 | +6.63 % | -0.80 % | above | — |
-| Arabia Saudí · Tadawul All Share | — | — | — | — | unavailable | — |
-| China · CSI 300 | — | — | — | — | unavailable | — |
-| India · Nifty 50 | 24090.8496 (2026-08-27) | 24754.4136 | -2.68 % | -0.66 % | zone | — |
-| Indonesia · Jakarta Composite | 6521.7500 (2026-08-27) | 7416.2454 | -12.06 % | -0.06 % | below | — |
+| Corea del Sur · KOSPI | 6687.2100 (2026-09-04) | 4987.2712 | +34.09 % | -1.50 % | above | — |
+| Taiwán · TAIEX | 46551.1289 (2026-09-04) | 31978.6341 | +45.57 % | +0.47 % | above | — |
+| España · IBEX 35 | 20050.6992 (2026-09-04) | 16829.0616 | +19.14 % | +0.04 % | above | — |
+| Canadá · S&P/TSX Composite | 36513.8008 (2026-09-04) | 31501.1215 | +15.91 % | -0.11 % | above | — |
+| Italia · FTSE MIB | 52100.0000 (2026-09-04) | 45350.5571 | +14.88 % | -0.98 % | above | — |
+| Singapur · Straits Times | 5801.9600 (2026-09-04) | 4704.6916 | +23.32 % | +1.79 % | above | — |
+| Brasil · Bovespa | 185147.0000 (2026-09-04) | 161487.0000 | +14.65 % | +5.40 % | above | — |
+| Estados Unidos · S&P 500 | 7718.6001 (2026-09-04) | 6827.6691 | +13.05 % | +0.09 % | above | — |
+| MUNDO · MSCI ACWI equivalente ponderado | 161.8900 (2026-09-04) | 142.5009 | +13.61 % | +0.50 % | above | — |
+| Japón · Nikkei 225 | 65020.9414 (2026-09-04) | 52619.4594 | +23.57 % | -2.09 % | above | — |
+| México · S&P/BMV IPC | 64866.6094 (2026-09-04) | 63937.2995 | +1.45 % | -0.94 % | zone | — |
+| Turquía · BIST 100 | 14012.4004 (2026-09-04) | 12181.0015 | +15.03 % | -4.30 % | above | — |
+| Reino Unido · FTSE 100 | 10831.0996 (2026-09-04) | 9864.6414 | +9.80 % | +0.06 % | above | — |
+| Argentina · S&P Merval | 3049122.0000 (2026-09-04) | 2661260.3714 | +14.57 % | +2.34 % | above | — |
+| Suiza · SMI | 14395.9404 (2026-09-04) | 12990.1496 | +10.82 % | -0.03 % | above | — |
+| Australia · S&P/ASX 200 | 9005.9004 (2026-09-04) | 8765.9700 | +2.74 % | -0.95 % | zone | — |
+| Hong Kong · Hang Seng | 25650.8691 (2026-09-04) | 25358.6039 | +1.15 % | +0.26 % | zone | — |
+| Francia · CAC 40 | 8278.7695 (2026-09-04) | 8080.6914 | +2.45 % | -1.46 % | zone | — |
+| Alemania · DAX | 26046.4004 (2026-09-04) | 24359.8456 | +6.92 % | -1.97 % | above | — |
+| Sudáfrica · FTSE/JSE All Share | 116725.7969 (2026-09-04) | 109912.3640 | +6.20 % | -1.23 % | above | — |
+| Arabia Saudí · Tadawul All Share | 10720.2803 (2026-07-16) | 11098.2450 | -3.41 % | -0.82 % | zone | — |
+| China · CSI 300 | 4529.1001 (2026-07-17) | 4418.5576 | +2.50 % | -5.26 % | zone | entra en zona desde arriba |
+| India · Nifty 50 | 23897.6992 (2026-09-04) | 24749.2107 | -3.44 % | -1.15 % | zone | — |
+| Indonesia · Jakarta Composite | 6636.4751 (2026-09-04) | 7413.6328 | -10.48 % | +1.82 % | below | — |
 
 ## Regla de seguridad
 
